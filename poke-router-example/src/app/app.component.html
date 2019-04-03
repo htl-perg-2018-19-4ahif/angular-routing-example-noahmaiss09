@@ -1,0 +1,6 @@
+<input type="text" [(ngModel)]="filter">
+
+<ul>
+  <li *ngFor="let pokemon of pokelist">{{pokemon.name}}</li>
+</ul>
+<router-outlet></router-outlet>
